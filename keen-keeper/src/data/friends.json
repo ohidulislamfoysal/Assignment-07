@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://i.pravatar.cc/150?u=sarahj",
+    "days_since_contact": 15,
+    "status": "almost due",
+    "tags": ["work", "design"],
+    "bio": "Colleague from the design agency."
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thorne",
+    "picture": "https://i.pravatar.cc/150?u=marcust",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "My cousin living out west."
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "picture": "https://i.pravatar.cc/150?u=elenar",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["travel"],
+    "bio": "Met during our trip to Japan."
+  },
+  {
+    "id": 4,
+    "name": "David Chen",
+    "picture": "https://i.pravatar.cc/150?u=davidc",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["college"],
+    "bio": "Former college roommate."
+  }
+]
