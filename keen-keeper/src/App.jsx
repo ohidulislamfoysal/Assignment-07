@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavBar from "./component/NavBar";
 import HeroSection from "./component/HeroSection";
+import Dashboard from "./component/Dashboard";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <NavBar/>
       <HeroSection></HeroSection>
+      <Dashboard></Dashboard>
       
     </>
   );

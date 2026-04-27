@@ -34,5 +34,41 @@
     "status": "overdue",
     "tags": ["college"],
     "bio": "Former college roommate."
+  },
+  {
+    "id": 5,
+    "name": "Sophie Bennett",
+    "picture": "https://i.pravatar.cc/150?u=sophieb",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["hobby", "books"],
+    "bio": "My best friend since middle school."
+  },
+  {
+    "id": 6,
+    "name": "Michael O'Connor",
+    "picture": "https://i.pravatar.cc/150?u=michaelo",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Provides excellent career advice."
+  },
+  {
+    "id": 7,
+    "name": "Aisha Khan",
+    "picture": "https://i.pravatar.cc/150?u=aishak",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["neighbor"],
+    "bio": "Grew up on the same street."
+  },
+  {
+    "id": 8,
+    "name": "Benjamin Lowe",
+    "picture": "https://i.pravatar.cc/150?u=benl",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["hiking", "friend"],
+    "bio": "Work friend who loves weekend hiking."
   }
 ]
