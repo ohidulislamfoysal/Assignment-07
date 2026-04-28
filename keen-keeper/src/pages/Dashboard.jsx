@@ -30,7 +30,7 @@ const Dashboard = () => {
         {friendsData.map((friend) => (
           <Link 
             key={friend.id} 
-            to={`/friend/${friend.id}`} // এখানে Link যোগ করা হয়েছে
+            to={`/friend/${friend.id}`}
             className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center hover:shadow-md transition-shadow cursor-pointer"
           >
             <img 

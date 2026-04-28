@@ -53,13 +53,13 @@ const FriendDetails = () => {
 
             <div className="w-full space-y-2">
               <button className="w-full py-2 border border-gray-200 rounded-lg text-sm font-medium hover:bg-gray-50 transition">
-                Snooze 2 Weeks
+                ⏰ Snooze 2 Weeks
               </button>
               <button className="w-full py-2 border border-gray-200 rounded-lg text-sm font-medium hover:bg-gray-50 transition">
-                Archive
+                📦 Archive
               </button>
               <button className="w-full py-2 border border-gray-200 text-red-500 text-sm font-medium hover:bg-red-50 rounded-lg transition">
-                Delete
+               🗑️ Delete
               </button>
             </div>
           </div>
