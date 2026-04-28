@@ -9,8 +9,6 @@ const Home = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      
-      {/* হিরো সেকশন - এটাই যোগ করলাম */}
       <div className='flex flex-col items-center justify-center py-20 px-4 text-center bg-white'>
         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
           Friends to keep close in your life
@@ -23,7 +21,6 @@ const Home = () => {
         </button>
       </div>
 
-      {/* বাকি কন্টেন্ট */}
       <div className="p-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10">
           <div className="bg-white p-6 rounded-xl shadow-sm text-center border border-gray-100">

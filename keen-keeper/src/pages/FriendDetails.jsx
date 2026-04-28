@@ -77,7 +77,7 @@ const FriendDetails = () => {
 
               <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <h2 className="text-2xl font-bold text-emerald-900">30</h2>
-                <p className="text-xs text-gray-500">Goal (Days)</p>
+                <p className="text-xs text-gray-500">Interactions This Month</p>
               </div>
 
               <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 text-center">

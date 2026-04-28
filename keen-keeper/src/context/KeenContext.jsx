@@ -4,8 +4,6 @@ export const KeenContext = createContext();
 
 export const KeenProvider = ({ children }) => {
   const [timeline, setTimeline] = useState([]);
-
-  // ✅ NEW: interaction tracking for PieChart
   const [interactions, setInteractions] = useState({
     Call: 0,
     Text: 0,
@@ -26,8 +24,6 @@ export const KeenProvider = ({ children }) => {
 
     setTimeline((prev) => [newEntry, ...prev]);
   };
-
-  // ✅ NEW FUNCTION: update stats
   const addInteraction = (type) => {
     setInteractions((prev) => ({
       ...prev,
