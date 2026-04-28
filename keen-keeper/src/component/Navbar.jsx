@@ -1,37 +1,43 @@
-const NavBar = () => {
+import React from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
+
+const Navbar = () => {
+  const navigate = useNavigate();
+
+  const linkClass = ({ isActive }) =>
+    `flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+      isActive
+        ? 'bg-emerald-900 text-white'
+        : 'text-slate-600 hover:text-emerald-900 hover:bg-gray-50'
+    }`;
+
   return (
     <nav className="flex items-center justify-between px-10 py-4 bg-white border-b border-gray-200">
-      
-      {/* Logo */}
-      <div className="flex items-center gap-3">
-        <img 
-          src="/assets/logo.png" 
-          alt="logo" 
-          className="object-contain"
-        />
+      <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate("/")}>
+        <img src="/assets/logo.png" alt="logo" />
       </div>
-
-      {/* Nav Links */}
       <ul className="flex items-center gap-8">
-        
-        <li className="bg-emerald-900 text-white px-4 py-2 rounded-lg flex items-center gap-2 cursor-pointer hover:bg-emerald-800 transition">
-          <img src="/assets/home.png" alt="home" className="w-5 h-5 object-contain" />
-          Home
+        <li>
+          <NavLink to="/" end className={linkClass}>
+            <img src="/assets/home.png" className="w-5 h-5" alt="home" />
+            Home
+          </NavLink>
         </li>
-
-        <li className="text-slate-600 cursor-pointer hover:text-emerald-900 flex items-center gap-2 transition">
-          <a href=""><img src="/assets/clock.png" alt="timeline" className="w-5 h-5 object-contain" />
-          Timeline</a>
+        <li>
+          <NavLink to="/timeline" className={linkClass}>
+            <img src="/assets/clock.png" className="w-5 h-5" alt="timeline" />
+            Timeline
+          </NavLink>
         </li>
-
-        <li className="text-slate-600 cursor-pointer hover:text-emerald-900 flex items-center gap-2 transition">
-          <a href=""><img src="/assets/graph.png" alt="stats" className="w-5 h-5 object-contain" />
-          Stats</a>
+        <li>
+          <NavLink to="/stats" className={linkClass}>
+            <img src="/assets/graph.png" className="w-5 h-5" alt="stats" />
+            Stats
+          </NavLink>
         </li>
-
       </ul>
     </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;
