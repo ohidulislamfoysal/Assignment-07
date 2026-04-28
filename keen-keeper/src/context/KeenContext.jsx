@@ -4,9 +4,10 @@ export const KeenContext = createContext();
 
 export const KeenProvider = ({ children }) => {
   const [timeline, setTimeline] = useState([]);
+
   const [interactions, setInteractions] = useState({
-    Call: 0,
     Text: 0,
+    Call: 0,
     Video: 0,
   });
 
@@ -14,7 +15,7 @@ export const KeenProvider = ({ children }) => {
     const newEntry = {
       ...entry,
       id: Date.now(),
-      date: new Date().toLocaleDateString('en-US', {
+      date: new Date().toLocaleString('en-US', {
         month: 'short',
         day: 'numeric',
         hour: '2-digit',
@@ -24,10 +25,11 @@ export const KeenProvider = ({ children }) => {
 
     setTimeline((prev) => [newEntry, ...prev]);
   };
+
   const addInteraction = (type) => {
     setInteractions((prev) => ({
       ...prev,
-      [type]: prev[type] + 1,
+      [type]: (prev[type] || 0) + 1,
     }));
   };
 
