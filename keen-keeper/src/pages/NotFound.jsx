@@ -9,8 +9,6 @@ const NotFound = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-50 to-slate-100 px-4">
       
       <div className="text-center bg-white p-10 rounded-2xl shadow-md border border-gray-100 max-w-md w-full relative overflow-hidden">
-
-        {/* decorative blur circle */}
         <div className="absolute -top-10 -right-10 w-32 h-32 bg-emerald-100 rounded-full blur-2xl opacity-60"></div>
 
         <FiAlertTriangle className="text-emerald-900 text-5xl mx-auto mb-4" />

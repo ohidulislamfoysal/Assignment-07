@@ -44,7 +44,7 @@ const Stats = () => {
             </ResponsiveContainer>
           </div>
 
-          {/* LEGEND */}
+
           <div className="flex justify-center gap-8 mt-6 flex-wrap">
             {data.map((item) => (
               <div key={item.name} className="flex items-center gap-2">
