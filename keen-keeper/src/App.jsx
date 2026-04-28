@@ -5,6 +5,7 @@ import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import Home from "./pages/Home";
 import FriendDetails from "./pages/FriendDetails";
+import NotFound from "./pages/NotFound";
 import Timeline from "./pages/Timeline";
 import Stats from "./pages/Stats";
 
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/friend/:id" element={<FriendDetails />} />
               <Route path="/timeline" element={<Timeline />} />
+              <Route path="*" element={<NotFound />} />
               <Route path="/stats" element={<Stats />} />
             </Routes>
           </div>
