@@ -22,7 +22,7 @@ const Timeline = () => {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-2xl font-bold text-gray-800 mb-6">Timeline</h1>
 
-        <div className="mb-4">
+        <div className="mb-4 mr-2">
           <select
             value={filter}
             onChange={(e) => setFilter(e.target.value)}

@@ -81,7 +81,7 @@ const FriendDetails = () => {
               </div>
 
               <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <h2 className="text-sm font-bold text-emerald-900">
+                <h2 className="text-xl font-bold text-emerald-900">
                   {(() => {
                     const daysLeft = 30 - friend.days_since_contact;
                     const nextDate = new Date();

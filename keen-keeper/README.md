@@ -1,16 +1,26 @@
-# React + Vite
+# 🛡️ KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a smart Relationship Management Dashboard built to streamline your social connections. It helps you keep track of your interaction history, visualize your networking habits, and ensure you never lose touch with the people who matter most.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
 
-## React Compiler
+Built with a focus on performance and a clean, modern UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Purpose |
+| :--- | :--- |
+| **React.js** | Frontend Framework |
+| **Tailwind CSS** | Styling & Responsive Design |
+| **Vite** | Build Tool |
+| **Recharts** | Data Visualization |
+| **React Router** | Navigation |
+| **React Toastify** | User Notifications |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+1. **Smart Dashboard:** A centralized view of your connections, categorized by interaction status (On Track, Almost Due, Overdue).
+2. **Visual Analytics:** Understand your social trends with interactive doughnut charts and detailed statistics.
+3. **Responsive Design:** A clean, mobile-friendly interface styled with Emerald and Slate palettes for a professional look.

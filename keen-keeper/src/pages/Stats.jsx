@@ -12,7 +12,7 @@ const Stats = () => {
   ];
 
   return (
-    <div className="p-8 bg-slate-50 min-h-screen">
+    <div className="p-8 bg-slate-50">
       <div className="max-w-4xl mx-auto">
 
         <h1 className="text-3xl font-bold text-gray-800 mb-8">
